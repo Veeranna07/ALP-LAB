@@ -39,8 +39,7 @@ LBL1:
         MOV BL,VAL1
         MOV AH,4CH
         INT 03H
-
-
-MAIN    ENDP
+        
+MAIN ENDP
 CODE ENDS
-        END     MAIN
+END MAIN
